@@ -52,10 +52,6 @@ int main() {
         int a = y[i].a, b = y[i].b, c = y[i].c;
         a = find(a), b = find(b);
         if (a == b) continue;
-        if (c > ans) {
-            ans = c;
-            
-        }
         ans = max(ans, c);
         Union(a, b);
         ansT.push_back(make_pair(y[i].a, y[i].b));
