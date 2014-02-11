@@ -137,7 +137,6 @@ int main() {
         x[1].push_back(make_pair(b, 0));
         x[b].push_back(make_pair(1, 0));
         YY.erase(YY.begin() + p);
-        cerr << YY.size() << endl;
         ++num;
     }
     
